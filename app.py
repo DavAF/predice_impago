@@ -1023,7 +1023,7 @@ if "resultado" in st.session_state:
 st.markdown("---")
 st.markdown("""<div style="text-align:center;padding:1rem 0;">
     <p style="font-size:0.75rem;color:#cbd5e1;line-height:1.6;">
-        Predice_Impago · INE EPA Q4 2025 · Banco de España · Fundación Alquiler Seguro 2023 · SEPE<br>
+        Predice_Impago<br>
         Herramienta orientativa. No constituye asesoramiento legal ni financiero.<br>
         <a href="https://github.com/DavAF/predice_impago/blob/main/privacy_policy.md"
            style="color:#94a3b8;text-decoration:none;" target="_blank">Política de privacidad</a>
