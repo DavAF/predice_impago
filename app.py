@@ -19,8 +19,8 @@ st.set_page_config(
 )
 
 FORMSPREE_URL = "https://formspree.io/f/xnjrzvdq"
-RESEND_API_KEY = "RE_PLACEHOLDER"  # ← sustituir por tu key re_xxxx
-
+RESEND_API_KEY = "re_AoieLaDL_HdKjNXShgUACn5DEJfsgsfwt"
+RESEND_API_KEY = st.secrets.get("RESEND_API_KEY", "RE_PLACEHOLDER")
 # Dominios desechables bloqueados
 DOMINIOS_DESECHABLES = {
     "mailinator.com","tempmail.com","guerrillamail.com","throwam.com",
