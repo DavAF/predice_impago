@@ -1393,12 +1393,13 @@ if "resultado" in st.session_state:
     )
 
 # ── # ─── FOOTER ───────────────────────────────────────────────────────────────────
-st.markdown("---")
-st.markdown("""<div style="text-align:center;padding:1rem 0;">
-    <p style="font-size:0.75rem;color:#cbd5e1;line-height:1.6;">
-        Predice_Impago · Herramienta de apoyo orientativo basada en estadísticas agregadas públicas. No constituye asesoramiento legal, financiero ni inmobiliario. No reemplaza la valoración profesional.<br>
-        Datos estadísticos: INE · Banco de España · Alquiler Seguro · SEPE<br>
-        
+st.markdown("""
+<div style="text-align:center;padding:2rem 0;">
+    <p style="font-size:0.75rem;color:#cbd5e1;line-height:1.8;">
+        Predice_Impago · Herramienta de apoyo orientativo basada en estadísticas agregadas públicas.<br>
+        No constituye asesoramiento legal, financiero ni inmobiliario.<br>
+        No reemplaza la valoración profesional.<br><br>
+        Datos estadísticos: INE · Banco de España · Alquiler Seguro · SEPE
     </p>
-</div>""", unsafe_allow_html=True)
-    # ── RECOMENDACIONES ─────────────────────────────────────────────────────────
+</div>
+""", unsafe_allow_html=True)
